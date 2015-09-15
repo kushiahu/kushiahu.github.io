@@ -725,10 +725,10 @@ border: 2px solid #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
-.input-btn:hover{
+/*.input-btn:hover{
 	background: #111;
 	color: #fff;
-}
+}*/
 
 /* Footer
 ---------------------------------*/
@@ -839,4 +839,7 @@ border: 2px solid #fff;
 .imame {
 	height: 140px;
 	width: 140px;
+}
+.input-btn:disabled {
+	opacity: 0.5;
 }
